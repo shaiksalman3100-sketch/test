@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_robot_arm</name>
+  <version>1.0.0</version>
+  <description>6-Axis Robotic Arm for AIROST Challenge</description>
+  <maintainer email="allan@utm.my">Allan</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
